@@ -1,0 +1,12 @@
+{
+  "name": "copilot-chat-exporter",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/confidence.test.js tests/link-utils.test.js tests/normalize.test.js tests/selectors.test.js tests/transcript-split.test.js tests/table-utils.test.js",
+    "generate:icons": "powershell -ExecutionPolicy Bypass -File ./scripts/generate-icons.ps1",
+    "generate:store-assets": "powershell -ExecutionPolicy Bypass -File ./scripts/generate-store-assets.ps1",
+    "package": "powershell -ExecutionPolicy Bypass -File ./scripts/package-extension.ps1"
+  }
+}

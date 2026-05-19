@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Privacy Policy | Copilot Chat Exporter</title>
+    <meta name="description" content="Privacy policy for the Copilot Chat Exporter Edge extension.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="../assets/icon-128.png">
+    <link rel="stylesheet" href="../styles.css">
+  </head>
+  <body>
+    <div class="page-shell page-shell-narrow">
+      <header class="site-header">
+        <a class="brand" href="../">
+          <img src="../assets/icon-128.png" alt="" width="64" height="64">
+          <span>Copilot Chat Exporter</span>
+        </a>
+        <nav class="site-nav" aria-label="Primary">
+          <a href="../">Home</a>
+          <a href="../support/">Support</a>
+        </nav>
+      </header>
+
+      <main class="policy-layout">
+        <article class="policy-card">
+          <p class="eyebrow">Privacy Policy</p>
+          <h1>Privacy Policy for Copilot Chat Exporter</h1>
+          <p class="policy-meta">Last updated: May 18, 2026</p>
+
+          <p>
+            Copilot Chat Exporter is an independent Microsoft Edge extension that helps a user export a
+            Microsoft 365 Copilot Chat conversation from <code>https://m365.cloud.microsoft/chat</code>
+            into a print-friendly preview for printing or saving as PDF.
+          </p>
+
+          <p>This project is not affiliated with Microsoft.</p>
+
+          <h2>Summary</h2>
+          <p>
+            Copilot Chat Exporter processes the content of the currently open Microsoft 365 Copilot Chat page
+            inside the user’s browser so it can generate a print-friendly transcript preview.
+          </p>
+          <p>
+            The extension does not sell personal information, does not use analytics or advertising trackers,
+            and does not send conversation content to an external server controlled by the publisher of this extension.
+          </p>
+
+          <h2>Information the extension accesses</h2>
+          <ul class="policy-list">
+            <li>The current page URL.</li>
+            <li>The visible conversation content on the active Microsoft 365 Copilot Chat page.</li>
+            <li>Message text, headings, lists, tables, citations, links, and images that are already present in the page content.</li>
+            <li>Basic page metadata such as the page title.</li>
+          </ul>
+
+          <h2>How the information is used</h2>
+          <ul class="policy-list">
+            <li>Detect whether the current tab is a supported Microsoft 365 Copilot Chat page.</li>
+            <li>Extract the visible conversation content from the active page.</li>
+            <li>Build a print-friendly transcript preview in the browser.</li>
+            <li>Allow the user to print the preview or save it as PDF using the browser’s own print flow.</li>
+          </ul>
+
+          <h2>Storage and retention</h2>
+          <p>The extension is designed to minimize storage:</p>
+          <ul class="policy-list">
+            <li>Export data is held temporarily in extension memory while the preview opens.</li>
+            <li>The temporary export payload expires automatically after a short period or is cleared when the preview is consumed or dismissed.</li>
+            <li>The extension does not intentionally persist transcript contents to extension storage, remote databases, or publisher-controlled servers.</li>
+          </ul>
+          <p>
+            If the user prints or saves a PDF, the resulting file is created by the browser or operating system under the user’s control.
+          </p>
+
+          <h2>Sharing and disclosure</h2>
+          <p>The extension does not transmit exported conversation data to the publisher’s servers.</p>
+          <p>The extension does not share conversation content with advertisers, data brokers, or analytics providers.</p>
+          <p>
+            The extension may render links that were already present in the Copilot Chat page. If the user chooses
+            to open one of those links, the browser will connect to that destination directly.
+          </p>
+
+          <h2>Permissions</h2>
+          <ul class="policy-list">
+            <li><code>activeTab</code>, to operate on the tab the user activates.</li>
+            <li><code>scripting</code>, to run the extraction flow on the supported page.</li>
+            <li>Host access for <code>https://m365.cloud.microsoft/*</code>, to support Microsoft 365 Copilot Chat pages.</li>
+          </ul>
+
+          <h2>Security</h2>
+          <p>
+            The extension is designed so that exported conversation data stays local to the browser during normal operation.
+            The extension also limits rendered external URLs to standard <code>http</code> and <code>https</code> links in the export preview.
+          </p>
+          <p>
+            No software can guarantee absolute security. Users should avoid printing or exporting sensitive material unless
+            they understand their organization’s data handling requirements.
+          </p>
+
+          <h2>Children’s privacy</h2>
+          <p>This extension is not directed to children.</p>
+
+          <h2>Changes to this policy</h2>
+          <p>
+            This policy may be updated if the extension’s behavior changes. The latest version should remain published at this URL.
+          </p>
+
+          <h2>Contact</h2>
+          <p>For privacy questions, use the published support page for this extension.</p>
+        </article>
+      </main>
+    </div>
+  </body>
+  </html>

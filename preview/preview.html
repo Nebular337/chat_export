@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Copilot Chat Export</title>
+    <link rel="stylesheet" href="preview.css">
+  </head>
+  <body>
+    <header class="app-header">
+      <div class="title-lockup">
+        <p class="eyebrow">Independent tool for Microsoft 365 Copilot Chat</p>
+        <h1>Transcript Export Preview</h1>
+      </div>
+      <div class="controls">
+        <button id="print-button" type="button">Print to PDF</button>
+        <button id="close-button" type="button">Close</button>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <section id="warning-banner" class="warning-banner" hidden></section>
+      <section id="meta-card" class="meta-card"></section>
+      <section id="message-list" class="message-list"></section>
+      <section id="empty-state" class="empty-state" hidden>
+        <h2>No transcript available</h2>
+        <p>Run the export again from a supported Copilot Chat page.</p>
+      </section>
+    </main>
+
+    <script type="module" src="preview.js"></script>
+  </body>
+  </html>

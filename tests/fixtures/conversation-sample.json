@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "sourceUrl": "https://m365.cloud.microsoft/chat/example",
+    "exportedAt": "2026-03-25T15:30:00Z",
+    "title": "Sample conversation",
+    "captureWarnings": [],
+    "captureConfidence": "high"
+  },
+  "messages": [
+    {
+      "id": "msg_001",
+      "sender": "user",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Summarise this document."
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "msg_002",
+      "sender": "copilot",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Summary"
+        },
+        {
+          "type": "paragraph",
+          "text": "This document focuses on roadmap decisions."
+        },
+        {
+          "type": "paragraph",
+          "text": "This document focuses on roadmap decisions."
+        },
+        {
+          "type": "bulleted_list",
+          "items": ["Timeline", "Risks"]
+        }
+      ],
+      "links": [
+        {
+          "text": "Roadmap source",
+          "href": "https://example.com/source",
+          "kind": "citation",
+          "isVisibleTextLink": true
+        },
+        {
+          "text": "Roadmap source",
+          "href": "https://example.com/source",
+          "kind": "citation",
+          "isVisibleTextLink": true
+        }
+      ]
+    }
+  ]
+}
