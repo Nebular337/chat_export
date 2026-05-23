@@ -1,4 +1,4 @@
-# Copilot Chat Exporter
+# Chat Exporter
 
 Independent Edge MV3 extension that exports the currently open Microsoft 365 Copilot Chat conversation on `https://m365.cloud.microsoft/chat` into a print-friendly transcript preview for saving as PDF.
 

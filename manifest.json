@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Copilot Chat Exporter",
-  "short_name": "Copilot Export",
+  "name": "Chat Exporter",
+  "short_name": "Chat Exporter",
   "version": "0.1.0",
   "description": "Independent Edge extension that exports Microsoft 365 Copilot Chat conversations from m365.cloud.microsoft/chat to a print-friendly transcript preview.",
   "icons": {
@@ -32,7 +32,7 @@
     }
   ],
   "action": {
-    "default_title": "Export Microsoft 365 Copilot Chat transcript",
+    "default_title": "Export chat transcript",
     "default_icon": {
       "16": "icons/icon-16.png",
       "32": "icons/icon-32.png",

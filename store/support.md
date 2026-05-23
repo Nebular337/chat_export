@@ -1,8 +1,8 @@
-# Support for Copilot Chat Exporter
+# Support for Chat Exporter
 
 Last updated: April 11, 2026
 
-Copilot Chat Exporter is an independent Edge extension for exporting Microsoft 365 Copilot Chat conversations from `https://m365.cloud.microsoft/chat` into a print-friendly preview.
+Chat Exporter is an independent Edge extension for exporting Microsoft 365 Copilot Chat conversations from `https://m365.cloud.microsoft/chat` into a print-friendly preview.
 
 This project is not affiliated with Microsoft.
 

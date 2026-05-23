@@ -1,14 +1,14 @@
-# Privacy Policy for Copilot Chat Exporter
+# Privacy Policy for Chat Exporter
 
 Last updated: April 11, 2026
 
-Copilot Chat Exporter is an independent Microsoft Edge extension that helps a user export a Microsoft 365 Copilot Chat conversation from `https://m365.cloud.microsoft/chat` into a print-friendly preview for printing or saving as PDF.
+Chat Exporter is an independent Microsoft Edge extension that helps a user export a Microsoft 365 Copilot Chat conversation from `https://m365.cloud.microsoft/chat` into a print-friendly preview for printing or saving as PDF.
 
 This project is not affiliated with Microsoft.
 
 ## Summary
 
-Copilot Chat Exporter processes the content of the currently open Microsoft 365 Copilot Chat page inside the user's browser so it can generate a print-friendly transcript preview.
+Chat Exporter processes the content of the currently open Microsoft 365 Copilot Chat page inside the user's browser so it can generate a print-friendly transcript preview.
 
 The extension does not sell personal information, does not use analytics or advertising trackers, and does not send conversation content to an external server controlled by the publisher of this extension.
 

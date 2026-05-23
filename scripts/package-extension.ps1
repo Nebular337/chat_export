@@ -27,7 +27,7 @@ foreach ($item in $packageItems) {
   Copy-Item -LiteralPath (Join-Path $root $item) -Destination $stagingDir -Recurse -Force
 }
 
-$zipName = "copilot-chat-exporter-edge-v{0}.zip" -f $manifest.version
+$zipName = "chat-exporter-edge-v{0}.zip" -f $manifest.version
 $zipPath = Join-Path $distDir $zipName
 
 if (Test-Path $zipPath) {

@@ -35,7 +35,7 @@ Capture these from the packaged extension running in Edge:
 
 Small tile headline:
 
-- `Export Copilot Chat`
+- `Chat Exporter`
 
 Small tile subhead:
 
@@ -43,11 +43,11 @@ Small tile subhead:
 
 Large tile headline:
 
-- `Copilot Chat Exporter`
+- `Chat Exporter`
 
 Large tile subhead:
 
-- `Export Microsoft 365 Copilot Chat to a clean print preview`
+- `Print-friendly transcript preview`
 
 Large tile support line:
 

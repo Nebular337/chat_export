@@ -13,7 +13,7 @@
 
 ## Display name
 
-`Copilot Chat Exporter`
+`Chat Exporter`
 
 ## Short description
 
@@ -21,7 +21,7 @@ Export Microsoft 365 Copilot Chat conversations from `m365.cloud.microsoft/chat`
 
 ## Full description
 
-Copilot Chat Exporter helps you turn the Microsoft 365 Copilot Chat conversation you already have open in Edge into a clean transcript preview that is ready to print or save as PDF.
+Chat Exporter helps you turn the Microsoft 365 Copilot Chat conversation you already have open in Edge into a clean transcript preview that is ready to print or save as PDF.
 
 Instead of copying chat content by hand, the extension reads the active `m365.cloud.microsoft/chat` conversation, keeps messages in order, and builds a separate preview page that is easier to review, print, and archive. Where possible, the export preserves useful structure such as headings, bullet lists, numbered lists, tables, citations, links, and images.
 
@@ -37,7 +37,7 @@ What this extension does not do:
 - It does not provide support for `copilot.microsoft.com`.
 - It does not upload exported transcript contents to a publisher-controlled server during normal use.
 
-Copilot Chat Exporter is intended for users who need a simpler way to preserve Copilot Chat output for printing, sharing internally, or saving to PDF.
+Chat Exporter is intended for users who need a simpler way to preserve Copilot Chat output for printing, sharing internally, or saving to PDF.
 
 ## Search terms
 

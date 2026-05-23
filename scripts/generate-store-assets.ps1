@@ -130,8 +130,8 @@ function Draw-Tile {
   }
 }
 
-Draw-Tile -Width 440 -Height 280 -Headline "Export Copilot Chat" -Subhead "Print-friendly transcript preview" -Footer "Independent Edge extension" -OutFile (Join-Path $assetsDir "small-promotional-tile.png")
-Draw-Tile -Width 1400 -Height 560 -Headline "Copilot Chat Exporter" -Subhead "Export Microsoft 365 Copilot Chat to a clean print preview" -Footer "Independent Edge extension" -OutFile (Join-Path $assetsDir "large-promotional-tile.png")
+Draw-Tile -Width 440 -Height 280 -Headline "Chat Exporter" -Subhead "Print-friendly transcript preview" -Footer "Independent Edge extension" -OutFile (Join-Path $assetsDir "small-promotional-tile.png")
+Draw-Tile -Width 1400 -Height 560 -Headline "Chat Exporter" -Subhead "Print-friendly transcript preview" -Footer "Independent Edge extension" -OutFile (Join-Path $assetsDir "large-promotional-tile.png")
 
 Copy-Item -LiteralPath $iconPath -Destination (Join-Path $assetsDir "store-logo-300.png") -Force
 
